@@ -21,6 +21,7 @@
                     header("Location: ../login.php");
         }else{
            
+            
         header("Location: ../registro.php?error=Contraseñas incorrectas");
         }
     }
